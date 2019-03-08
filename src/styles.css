@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {    
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+}
+
+.square{
+    width: 20%;
+    background: rebeccapurple;
+    float: left;
+    padding-bottom: 20%;
+    border-radius: 15%;
+    transition: background .8s;
+    margin: 2%;
+}
+.square.winner{
+    background: gold;
+}
+.square.loser{
+    background: grey
+}
